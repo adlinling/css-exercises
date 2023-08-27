@@ -10,9 +10,22 @@ body {
 
 .header {
   display:flex;
+  justify-content:space-between;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+
+.left, .right{
+  display:flex;
+}
+
+
+.notifications{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    padding:24px;
 }
 
 .profile-image {
@@ -30,10 +43,11 @@ body {
   font-weight: 900;
   font-style: italic;
   padding:10px;
+  background-color: rgb(146, 146, 238);
 }
 
 button {
-  margin-left: auto;
+ 
   align-self:center;
   height:30px;
   border: none;
@@ -52,7 +66,9 @@ a {
 
 ul {
   display:flex;
-  background-color:white;
+  margin:0;
+  padding:0;
+  background-color:rgb(175, 64, 64);
   align-self:center;
   list-style-type: none;
 }
