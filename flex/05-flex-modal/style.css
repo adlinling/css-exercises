@@ -16,17 +16,38 @@ body {
 }
 
 .modal {
+  display:flex;
+  padding:20px;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
+.left{
+  flex:1; 
+  
+}
+
+.right{
+  flex:7; 
+}
+
+.top{
+  display:flex;
+  justify-content: space-between;
+  padding:6px 0px;
+}
+
+.text{
+  padding:10px 0;
+}
+
 .icon {
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
-  background: lavender;
+  background: rgb(196, 196, 245);
   width: 42px;
   height: 42px;
   border-radius: 50%;
